@@ -13,7 +13,7 @@ do
     git commit -m "automated update"
     #git branch -m main
     #git remote add origin https://github.com/Guelakais/$i.git # to add the source of the github repo
-    git remote set-url origin https://Guelakais:$token@github.com/Guelakais/$i.git
+    git remote origin https://Guelakais:$token@github.com/Guelakais/$i.git
     git push push -u origin main
     git pull  origin main $i # downloads from origin branch
     cd ..
